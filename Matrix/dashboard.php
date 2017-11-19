@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Dashboard | Matrix</title>
+   <link rel="stylesheet" type="text/css" href="styling.css"/>
+</head>
+<body>
+
+<!--   <ul class="top">
+ <li class="a"><a href="#">Login</a></li>
+ <li class="b"><a href="#">Signup</a>
+ </li>
+ <li class="c"><a href="#">Help</a>
+ </li>
+    </ul> -->
+
+<!--<div id="imm2"></div>-->
+<ul class="tab">
+  <li><a href="index.php"  >Log Out</a></li>
+  <li><a href="#" >Account</a></li>
+  <li><a href="helppage.php"  >Help</a></li>
+<li><form>
+     <input type = "text" name = "search" placeholder="Search" id="searchie"/>
+</form></li>
+</ul>
+<img src="logy5.jpg" id="xxx">
+<!--<div id='button-holder'>
+    <img src='magni.png' />
+</div>-->
+
+
+    <ul >
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a>
+ </li>
+ <li><a href="#">Compete</a>
+ </li>
+ <li><a href="#">Contact</a>
+ </li>
+ <li><a href="#">Jobs</a></li>
+</ul>
+<div class="middle-part">
+  <div class="vertical-menu">
+  <a href="work.html" class="active">Python</a>
+  <a href="#">Java</a>
+  <a href="#">C++</a>
+  <a href="#">SQL</a>
+  <a href="#">Ruby</a>
+  </div>
+  
+  <div id="inside">
+   <img src="user.png" class="imm"/>
+   <p class="two">USER</p>
+  </div>
+   <div id="score">
+     <div class="adt">
+    <center><p id="titlet">You have completed:</p>
+    <p id="sub"> Python &nbsp &nbsp &nbsp &nbsp &nbsp Java </p>
+    <p id="per"> 18% &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 12% </p></center>
+     </div>
+  </div>
+  <div class="alert">
+    <a href="codesprint.php">Code Sprint</a>
+  <a href="global.php">Global Coding</a>
+  <a href="starcoder.php">Star Coder</a>
+  </div>
+
+  
+ 
+</div>
+<!-- <div id="down">
+    <ul id="jjj">
+      <li>2010-2017</li>
+      <li>Matrix. Inc</li>
+      <li>Legal and Privacy</li>
+      <li>Regulatory Information</li>
+      <li>Site Map</li>
+    </ul>
+    </div> -->
+</body>
+</html>
+    

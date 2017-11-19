@@ -1,0 +1,219 @@
+body{
+    background-image: url("fog.jpg");
+    /* width: 100%;*/
+    height: 120%; 
+    /*background-size: cover;*/
+}
+#xxx {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 350px;
+
+    border-radius: 5%;
+    
+}
+.navigation{
+    margin-left : 100px;
+    margin-top: 20px;
+    background : rgba(94, 90, 125, 0.08);
+    overflow : hidden ;
+    width : 610px;
+    box-shadow: 0 2px 10px 2px rgba(0,0,0,0.2);
+    background-color: rgb(245, 245, 245);
+    background-image: url("topography.png");
+}
+
+.navigation li{
+    width : 120px;
+    border-left : 5px ;
+    list-style-type: none ;
+    float : left;
+    padding : 10px;
+}
+
+.navigation li h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 15px;
+    //-webkit-transition: all 0.3s ease-in;
+	//-moz-transition: all 0.3s ease-in;
+	//-o-transition: all 0.3s ease-in;
+}
+
+.navigation li:hover{
+    background : rgba(74, 79, 80, 0.44);
+    border-left : 5px solid ;
+    -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.navigation li :hover h2{
+    -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+    font-weight : bold;
+    padding-right: 5px;
+    color : #fff;
+}
+ul.navigation li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+    //-webkit-transition: all 0.3s ease-in;
+	//-moz-transition: all 0.3s ease-in;
+	//-o-transition: all 0.3s ease-in;
+}
+.vertical-menu {
+    /*display: inline-block;*/
+    float: left;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 170px; 
+    /*border: 3px solid #333333;*/
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.vertical-menu a {
+    
+    background-color: #d2d3d5; 
+    color: #000000; 
+    display: block; 
+    padding: 20px; 
+    text-decoration: none; 
+    border-bottom: 1.5px solid #333333;
+    border-right: 1.5px solid #333333;
+    font-family: 'Raleway', sans-serif;
+    -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+    
+}
+
+.vertical-menu a:hover {
+    background-color: #333333; 
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+#inside {
+    float: left;
+    border-radius: 2%;
+    width:1000px;
+    height:150px;
+    background-color: #d2d3d5; 
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    border: 1px solid #333333;
+    margin-left: 250px;
+     margin-top: 60px;
+     position: absolute;
+ }
+ #text{
+     padding-left: 50px;
+     padding-top: 10px;
+     color: green;
+     font-size: 32px;
+     font-style: bold,underline;
+     opacity: 1;
+ }
+ #doww{
+    padding-left: 30px;
+   /*padding-top: 10px;*/
+    color: #333333;
+    font-size: 20px;
+    
+    opacity: 1;
+    display: inline;
+ }
+ #solve{
+     margin-left: 850px;
+     width: 100px;
+     height: 40px;
+     color: #ffffff;
+     font-size: 24px;
+     background-color: green;
+     display: inline;
+     border: 0.5px solid #d2d3d5;
+    
+ }
+ #skillet{
+    
+    border-radius: 2%;
+    width:1000px;
+    height:150px;
+    background-color: #d2d3d5;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    border: 1px solid #333333;
+    margin-left: 250px;
+    margin-top: 260px;
+    position: absolute;
+
+ }
+ #skillet1{
+    
+    border-radius: 2%;
+    width:1000px;
+    height:150px;
+    background-color: #d2d3d5;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    border: 1px solid #333333;
+    margin-left: 250px;
+    margin-top: 470px;
+    position: absolute;
+
+ }
+ #skillet2{
+    
+    border-radius: 2%;
+    width:1000px;
+    height:150px;
+    background-color: #d2d3d5;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    border: 1px solid #333333;
+    margin-left: 250px;
+    margin-top: 660px;
+    position: absolute;
+
+ }
+ #skillet3{
+    
+    border-radius: 2%;
+    width:1000px;
+    height:150px;
+    background-color: #d2d3d5;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    border: 1px solid #333333;
+    margin-left: 250px;
+    margin-top: 890px;
+    position: absolute;
+
+ }
+ ul#jjj li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6e7f80;
+    
+
+
+}
+#down{
+    background-color: #f0fafc;
+    width:130%;
+    height:50px;
+    position: absolute;
+    padding-bottom: 30px;
+    margin-top: 830px;
+}

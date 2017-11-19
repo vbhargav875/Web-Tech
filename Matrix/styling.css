@@ -1,0 +1,249 @@
+body{
+    background-image: url("down2.jpg");
+
+    /*background-size:cover;*/
+    width:100%;
+    margin:0 auto;
+}
+ul {
+ margin-left: 150px;
+ margin-top: 35px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+ position: relative;
+}
+
+ul li {
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: #363636;
+
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+ border: 2px border-style white;
+}
+
+ul li a:hover {
+ background-color: green;
+ border: 2px border-style white;
+}
+
+ul.tab  {
+ margin-left: 500px;
+ margin-top: 20px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+ overflow: hidden;
+ width: 800px;
+}
+ul.tab li{
+ float: right;
+ width: 100px;
+ height: 40px;
+ background-color:#147FBB;
+/* border: 4px solid brown;*/
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+
+}
+
+ul.tab li a{
+text-decoration: none;
+ color: white;
+ /*display: block;*/
+ border: 2px border-style white;
+}
+
+
+ul.tab li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*form input[type=text]*/
+#searchie {
+        float: right;
+        width: 260px;
+    
+		height: 43px;
+		padding-left: 45px;
+		background: #50597b;
+		color: white;
+		border: solid 1px #1f253d;
+		border-radius: 5px;		
+}
+#xxx {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 350px;
+
+    border-radius: 5%;
+    
+}
+
+.vertical-menu {
+    /*display: inline-block;*/
+    float: left;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 150px; 
+    border: 3px solid #333333;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.vertical-menu a {
+    
+    background-color: #363636; 
+    color: #A9AAAF; 
+    display: block; 
+    padding: 30px; 
+    text-decoration: none; 
+    border-bottom: 0.5px solid #CC324B;
+    -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+    
+}
+
+.vertical-menu a:hover {
+    background-color: #d2d3d5; 
+    color: #333333;
+}
+
+.imm {
+    
+    border-radius:  100%;
+    width:250px;
+    height:250px;
+    -webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;	
+    margin: 20px 20px 0px 20px;
+}
+#inside {
+   float: left;
+   border-radius: 20%;
+   width:300px;
+   height:330px;
+   background-color: #383636;
+   margin-left: 350px;
+    margin-top: 200px;
+    position: absolute;
+}
+.two {
+    color: #0099cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+     }
+
+
+/*#imm2 {
+    background-image: url("down2.url");
+    width:800px;
+    height:1000px;
+
+}*/
+
+.alert{
+    border-radius: 20%;
+    float:left;
+    margin-top: 170px;
+    margin-left: 1150px;
+    width: 150px; /* Set a width if you like */
+    border: 3px solid #333333;
+    border-radius: 5px;
+
+}
+.alert a {
+    
+    background-color:#27AF5C; 
+    color: #263245; 
+    display: block; 
+    padding: 30px; 
+    text-decoration: none; 
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3px solid #14535f;
+ 
+}
+
+.alert a:hover {
+    background-color: #1f253d; 
+    color: white;
+}
+
+/*#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
+  
+#button-holder img{
+    margin:4px;
+    width:20px; 
+}*/
+
+#score {
+   float: left;
+   border-radius: 20%;
+   width:300px;
+   height:330px;
+   background-color: #383636;
+   margin-left: 750px;
+   margin-top: 200px;
+   position: absolute;
+}
+#titlet {
+    color: #0099cc;
+    font-family: cursive;
+    font-size: 32px;
+
+}
+#sub {
+    color: #85CDC1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+#per {
+    color: #85CDC1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+#down{
+    background-color: #f0fafc;
+    width:1348x;
+    height:150px;
+    /* margin-top: 30px; */
+    overflow: hidden;
+}
+ul.jjj li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6e7f80;
+}
