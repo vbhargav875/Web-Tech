@@ -1,0 +1,23 @@
+<?php>
+
+extract($_POST);
+$count=0;
+
+if($_POST[1]=="b"){
+count++; }
+if($_POST[2]=="d"){
+count++; }
+if($_POST[3]=="a"){
+count++: }
+if($_POST[4]=="b"){
+count++; }
+
+if(count==4){
+alert("Well done, you have mastered the basics"); }
+else if((count<4)&&(count>1)){
+alert("Very good, you can still improve"): }
+else{
+alert("Study the basics again and attempt later"): }
+
+?>
+
